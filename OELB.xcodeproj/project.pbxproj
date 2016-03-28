@@ -26,6 +26,7 @@
 		5A76A6CE1CA8D801003D4911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A76A6D11CA8D801003D4911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A76A6D31CA8D801003D4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76A6DA1CA8D926003D4911 /* OELB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OELB.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		5A76A6C11CA8D801003D4911 /* OELB */ = {
 			isa = PBXGroup;
 			children = (
+				5A76A6D91CA8D824003D4911 /* OELBKit */,
 				5A76A6C51CA8D801003D4911 /* AppDelegate.h */,
 				5A76A6C61CA8D801003D4911 /* AppDelegate.m */,
 				5A76A6C81CA8D801003D4911 /* ViewController.h */,
@@ -77,6 +79,14 @@
 				5A76A6C31CA8D801003D4911 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A76A6D91CA8D824003D4911 /* OELBKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A76A6DA1CA8D926003D4911 /* OELB.h */,
+			);
+			path = OELBKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
